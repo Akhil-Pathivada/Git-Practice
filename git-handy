@@ -3,6 +3,6 @@
 
 2. git reset -- filename:
 	Rollbacks the git-add of the filename
-something-modified by f1
 
-something-f2
+3. Rename the branch locally with the git branch --move command:
+	git branch --move bad-branch-name corrected-branch-name
