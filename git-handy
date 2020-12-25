@@ -6,3 +6,6 @@
 
 3. Rename the branch locally with the git branch --move command:
 	git branch --move bad-branch-name corrected-branch-name
+
+   To see the corrected branch on the remote, push it:
+	git push --set-upstream origin corrected-branch-name
